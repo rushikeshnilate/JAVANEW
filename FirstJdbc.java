@@ -6,6 +6,7 @@ DriverManager.registerDriver(new com.mysql.jdbc.Driver());
 }
 catch(Exception e){
 System.out.println(e);
+    System.out.println("hiiiiii");
 }
 }
 }
